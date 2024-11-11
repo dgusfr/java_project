@@ -9,6 +9,15 @@ public class Main {
 		
 		System.out.printf("Quantas horas?");
 		hora = sc.nextInt();
+		
+		if(hora < 12) {
+			System.out.println("Bom dia");
+		} else {
+			System.out.println("Boa tarde");
+		}
+		
+		sc. close();
+		
 	}
 
 }
