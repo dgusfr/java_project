@@ -15,8 +15,9 @@ public class Main {
 		} else {
 			if (hora < 18) {
 				System.out.println("Boa tarde");
+			}else {
+				System.out.println("Boa noite");
 			}
-			
 		}
 		
 		sc. close();
