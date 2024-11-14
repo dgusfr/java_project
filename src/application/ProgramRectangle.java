@@ -11,14 +11,18 @@ public class ProgramRectangle {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Rectangle rectangle = new Rectangle();
+        Rectangle rect = new Rectangle();
         
         System.out.println("Enter rectangle settings: ");
         System.out.print("Width: ");
-        rectangle.width = sc.nextDouble();
+        rect.width = sc.nextDouble();
         
         System.out.print("Height: ");
-        rectangle.height = sc.nextDouble();
+        rect.height = sc.nextDouble();
+        
+        System.out.printf("Area = %.2f%n", rect.area());
+        System.out.printf("Perimeter = %.2f%n", rect.perimeter());
+        System.out.printf("Diagonal = %.2f%n", rect.diagonal());
 
         sc.close();
 
