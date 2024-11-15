@@ -1,9 +1,9 @@
 package application;
 
+import entities.Employee;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Employee;
 
 public class ProgramEmployee {
 
@@ -14,14 +14,23 @@ public class ProgramEmployee {
         Employee emp = new Employee();
         
         System.out.println("Enter the informations: ");
+        
         System.out.print("Name: ");
-        emp.name = sc.next();
+        emp.name = sc.nextLine();
         
         System.out.print("Gross Salary: ");
         emp.grossSalary = sc.nextDouble();
         
-        System.out.print("Gross Salary: ");
-        emp.grossSalary = sc.nextDouble();
+        System.out.print("Tax: ");
+        emp.tax = sc.nextDouble();
+        
+        System.out.println("Employee: " + emp);
+        System.out.println("Which percentage to increase salary? ");
+        
+        double percentage = sc.nextDouble();
+        emp.increaseSalary(percentage);
+        
+        System.out.println("Updated data: " + emp);
 
 	}
 
