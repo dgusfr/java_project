@@ -1,0 +1,39 @@
+# Arquivos e diretórios de build
+/bin/
+/build/
+out/
+target/
+*.class
+
+# Arquivos de configuração de IDEs
+*.iml
+.idea/
+*.classpath
+*.project
+.settings/
+
+# Dependências geradas
+/.mvn/
+/.mvn/
+*.jar
+*.war
+*.ear
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Outros
+!.mvn/wrapper/maven-wrapper.jar
+*.properties~
+*.yml~
