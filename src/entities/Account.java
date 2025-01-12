@@ -10,6 +10,13 @@ public class Account {
 		this.number = number;
 		this.holder = holder;
 	}
+
+	public Account(int number, String holder, double balance) {
+		this.number = number;
+		this.holder = holder;
+		this.balance = balance;
+	}
+	
 	
 	
 
