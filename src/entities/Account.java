@@ -2,9 +2,15 @@ package entities;
 
 public class Account {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private int number;
+	private String holder;
+	private double balance;
+	
+	public Account(int number, String holder) {
+		this.number = number;
+		this.holder = holder;
 	}
+	
+	
 
 }
