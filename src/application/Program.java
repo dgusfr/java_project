@@ -17,7 +17,7 @@ public class Program {
 		String holder = sc.nextLine();
 		
 		System.out.print("Is there an initial deposit? (y/n): ");
-		String holder = sc.nextLine();
+		char response = sc.next().charAt(0);
 		
 		
 		
