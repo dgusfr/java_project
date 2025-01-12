@@ -32,7 +32,7 @@ public class Account {
 	public double getBalance() {
 		return balance;
 	}
-	
+
 	public void deposit(double amount) {
 		balance += amount;
 	}
@@ -41,7 +41,12 @@ public class Account {
 		balance -= amount + 5.0;
 	}
 	
-	
-	
-
+	public String toString() {
+		return "Account "
+				+ number
+				+ ", Holder: "
+				+ holder
+				+ ", Balance: $ "
+				+ String.format("%.2f", balance);
+	}
 }
