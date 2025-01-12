@@ -11,6 +11,12 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter account number:");
+		int number = sc.nextInt();
+		
+		System.out.print("Enter account holder: ");
+		String holder = sc.nextLine();
+		
+		
 		
 		sc.close();
 	}
