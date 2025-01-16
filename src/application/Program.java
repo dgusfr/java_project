@@ -20,7 +20,7 @@ public class Program {
         for (int i = 0; i < n; i++) {
         	sc.nextInt();
         	String name = sc.nextLine();
-        	double price = sc.nextDouble()
+        	double price = sc.nextDouble();
             vect[i] = new Product(name, price);
         }
         
