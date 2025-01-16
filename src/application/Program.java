@@ -3,6 +3,8 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.Product;
+
 public class Program {
 
     public static void main(String[] args) {
@@ -16,16 +18,12 @@ public class Program {
         
         System.out.println("Adicione os valores do array:");
         for (int i = 0; i < n; i++) {
-            vect[i] = sc.nextDouble();
+        	sc.nextInt();
+        	String name = sc.nextLine();
+        	double price = sc.nextDouble()
+            vect[i] = new Product(name, price);
         }
         
-        double sum = 0.0;
-        for (int i = 0; i < n; i++) {
-            sum += vect[i];
-        }
-        
-        double avg = sum / n;
-        System.out.printf("Média das alturas: %.2f%n", avg);
                 
         sc.close();
     }
