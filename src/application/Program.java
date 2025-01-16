@@ -15,8 +15,15 @@ public class Program {
 		
 		for(int i=0; i<=n; i++) {
 			vect[i] = sc.nextDouble();
-			
 		}
+		
+		double sum = 0.0;
+		for(int i=0; i<=n; i++) {
+			sum = sum + vect[i];
+		}
+		
+		double avg = sum / n;
+		System.out.println("Average Height:", avg);
 				
 		sc.close();
 	}
