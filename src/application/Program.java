@@ -24,6 +24,8 @@ public class Program {
             vect[i] = new Product(name, price);
         }
         
+        double sum = 0.0;
+        
                 
         sc.close();
     }
