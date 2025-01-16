@@ -12,7 +12,7 @@ public class Program {
         
         System.out.println("Adicione o tamanho do array:");
         int n = sc.nextInt();
-        double[] vect = new double[n];
+        Product[] vect = new Product[n];
         
         System.out.println("Adicione os valores do array:");
         for (int i = 0; i < n; i++) {
