@@ -18,7 +18,7 @@ public class Program {
         
         System.out.println("Adicione os valores do array:");
         for (int i = 0; i < n; i++) {
-        	sc.nextInt();
+        	sc.nextLine();
         	String name = sc.nextLine();
         	double price = sc.nextDouble();
             vect[i] = new Product(name, price);
