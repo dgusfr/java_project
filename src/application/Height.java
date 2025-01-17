@@ -36,6 +36,14 @@ public class Height {
         System.out.println();
         System.out.printf("Altura média: %.2f%n", mediaAlturas);
         
+        int count = 0 ;
+        for (int i = 0; i < n; i++) {
+        	if(idades[i] < 16)
+        	count = count + 1;
+         }
+        
+        System.out.println("");
+       
         sc.close();
 
 	}
