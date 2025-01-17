@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Height {
+public class Negatives {
 
 	public static void main(String[] args) {
 
@@ -20,6 +20,7 @@ public class Height {
             vet[i] = sc.nextInt();
             if (vet[i] < 0) {
                 negativos++; 
+                System.out.println("Numeros negativos:");
             }
         }
         System.out.println("Quantidade de números negativos: " + negativos);
