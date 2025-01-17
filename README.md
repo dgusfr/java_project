@@ -15,7 +15,7 @@ Uma coleção de exercícios gerais em Java, projetada para aprimorar habilidade
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="images/java.png" alt="Logo Linguagem" width="100"/>
+    <img src="images/java.png" alt="Logo Linguagem" width="150"/>
   </div>
 </div>
 
