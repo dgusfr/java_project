@@ -17,19 +17,12 @@ public class Height {
         int[] vet = new int[n];
         
         
-        for (int i = 0; i < numeros.length; i++) {
-        	System.out.println("Digite um numero:");
-        	vet[i] = 
-        }
-        
-        double sum = 0.0;
         for (int i = 0; i < n; i++) {
-        	sum += vect[i].getPrice();
+        	System.out.println("Digite um numero:");
+        	vet[i] = sc.nextInt();
         }
         
-        double avg = sum / n;
         
-        System.out.printf("Average price: %.2f%n", avg);
                 
         sc.close();
     }
