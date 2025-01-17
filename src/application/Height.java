@@ -23,7 +23,6 @@ public class Height {
             }
         }
         System.out.println("Quantidade de números negativos: " + negativos);
-
          
         sc.close();
     }
