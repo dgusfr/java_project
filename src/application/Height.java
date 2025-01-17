@@ -33,6 +33,7 @@ public class Height {
         
         double mediaAlturas = soma / n;
         
+        System.out.println();
         System.out.printf("Altura média: %.2f%n", mediaAlturas);
         
         sc.close();
