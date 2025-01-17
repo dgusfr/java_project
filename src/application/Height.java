@@ -14,12 +14,12 @@ public class Height {
         
         System.out.println("Adicione o tamanho do array:");
         int n = sc.nextInt();
-        int[] vet = 
+        int[] vet = new int[n];
         
-        System.out.println("Digite um numero:");
+        
         for (int i = 0; i < numeros.length; i++) {
-        	double price = sc.nextDouble();
-            numeros[i] = new Product(name, price);
+        	System.out.println("Digite um numero:");
+        	vet[i] = 
         }
         
         double sum = 0.0;
