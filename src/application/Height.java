@@ -13,17 +13,14 @@ public class Height {
         int n = sc.nextInt();
         
         String[] nomes = new String[n];
-        
-        int[] vet = new int[n];
+        int[] idades = new int[n];
+        double[] alturas = new double[n];
 
         int negativos = 0;
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Digite um número:");
-            vet[i] = sc.nextInt();
-            if (vet[i] < 0) {
-                negativos++;
-            }
+            System.out.println("Dados da " + (i+1) + "pessoa:");
+            
         }
         
         sc.close();
