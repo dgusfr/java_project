@@ -42,7 +42,9 @@ public class Height {
         	count = count + 1;
          }
         
-        System.out.println("");
+        double percent = (n * 100) / count;
+        
+        System.out.printf(" %.2f%n  % das pessoas tem menos de 16 anos", percent );
        
         sc.close();
 
