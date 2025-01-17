@@ -16,8 +16,6 @@ public class Height {
         int[] idades = new int[n];
         double[] alturas = new double[n];
 
-        int negativos = 0;
-
         for (int i = 0; i < n; i++) {
            System.out.println("Dados da " + (i+1) + "pessoa:");
            System.out.println("Nome: ");
@@ -28,8 +26,16 @@ public class Height {
            alturas[i] = sc.nextDouble();
         }
         
+        double soma = 0.0;
+        for (int i = 0; i < n; i++) {
+        	soma = soma + alturas[i];
+         }
+        
+        double mediaAlturas = soma / n;
+        
+        System.out.printf("Altura média: %.2f%n", mediaAlturas);
+        
         sc.close();
-
 
 	}
 
