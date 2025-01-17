@@ -25,7 +25,7 @@ public class Height {
            System.out.println("Idade: ");
            idades[i] = sc.nextInt();
            System.out.println("Altura: ");
-           nomes[i] = sc.next();
+           alturas[i] = sc.nextDouble();
         }
         
         sc.close();
