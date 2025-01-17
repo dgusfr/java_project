@@ -19,8 +19,13 @@ public class Height {
         int negativos = 0;
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Dados da " + (i+1) + "pessoa:");
-            
+           System.out.println("Dados da " + (i+1) + "pessoa:");
+           System.out.println("Nome: ");
+           nomes[i] = sc.next();
+           System.out.println("Idade: ");
+           idades[i] = sc.nextInt();
+           System.out.println("Altura: ");
+           nomes[i] = sc.next();
         }
         
         sc.close();
