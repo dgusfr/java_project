@@ -1,5 +1,65 @@
 # Programação com Java
 
+# Programação com Java
+
+## Sumário
+1. [Java Syntax Básica](#java-syntax-básica)
+    1. [Terminologia Básica e Convenções de Nomenclatura](#1-terminologia-básica-e-convenções-de-nomenclatura)
+        - [Principais Termos](#11-principais-termos)
+        - [Convenções de Nomenclatura](#12-convenções-de-nomenclatura)
+    2. [Palavras Reservadas](#2-palavras-reservadas)
+2. [Entrada e Saída de Dados](#3-entrada-e-saída-de-dados)
+    1. [Saída de Dados](#31-saída-de-dados)
+        - [Usando `System.out.print()`](#exemplo-usando-systemoutprint)
+        - [Usando `System.out.println()`](#exemplo-usando-systemoutprintln)
+    2. [Imprimindo o Conteúdo de Variáveis](#32-imprimindo-o-conteúdo-de-variáveis)
+        - [Tipos Primitivos](#variáveis-de-tipos-primitivos)
+        - [Ponto Flutuante](#variáveis-de-ponto-flutuante)
+    3. [Formatação com `System.out.printf()`](#33-formatação-de-saída-com-systemoutprintf)
+        - [Placeholders Comuns](#placeholders-comuns)
+        - [Controlando o Separador de Decimais](#34-controlando-o-separador-de-decimais)
+    4. [Concatenando Elementos na Saída](#4-concatenando-elementos-na-saída)
+        - [Usando `+` com `print` e `println`](#41-usando-com-print-e-println)
+        - [Usando `printf`](#42-usando-printf-com-placeholders)
+3. [Comentários em Java](#5-comentários-em-java)
+    - [Linha Única](#51-comentário-de-linha-única)
+    - [Múltiplas Linhas](#52-comentário-de-múltiplas-linhas)
+    - [JavaDoc](#53-comentário-de-documentação-javadoc)
+4. [Tipos de Dados e Variáveis](#tipos-de-dados-e-variáveis-em-java)
+    1. [Variáveis](#variáveis)
+    2. [Tipos de Variáveis](#tipos-de-variáveis-em-java)
+        - [Variáveis Locais](#11-variável-local)
+        - [Variáveis de Instância](#12-variável-de-instância)
+        - [Variáveis Estáticas](#13-variável-estática)
+    3. [Convenções de Nomeação](#convenções-para-nomes-de-variáveis-em-java)
+    4. [Tipos Primitivos](#tipos-primitivos)
+    5. [Tipos Não Primitivos](#tipos-não-primitivos)
+5. [Strings em Java](#strings-em-java)
+    - [Principais Métodos da Classe String](#principais-métodos-da-classe-string)
+6. [Enums (Enumerations)](#enums-enumerations)
+7. [Casting](#casting-em-java)
+    - [Exemplo sem Casting](#exemplo-sem-casting)
+    - [Exemplo com Casting](#exemplo-com-casting)
+8. [Expressões Lógicas](#expressões-lógicas)
+    - [Operadores Lógicos](#operadores-lógicos)
+9. [Operadores Bitwise](#operadores-bitwise)
+    - [Principais Operadores](#principais-operadores-bitwise)
+    - [Verificar um Bit Específico](#aplicação-comum-verificar-um-bit-específico)
+10. [Estruturas Condicionais](#estruturas-condicionais)
+    - [Simples e Compostas](#estruturas-simples-e-compostas)
+    - [Condicional Ternária](#condicional-ternária)
+11. [Estruturas de Repetição](#estruturas-de-repetição)
+    - [Estrutura `while`](#1-estrutura-while)
+    - [Estrutura `for`](#2-estrutura-for)
+    - [Estrutura `do-while`](#3-estrutura-do-while)
+12. [Teste de Mesa](#teste-de-mesa)
+    - [Exemplo com `while`](#exemplo-com-while)
+    - [Exemplo com `for`](#exemplo-com-for)
+
+---
+
+Agora o documento está estruturado com links para facilitar a navegação entre os tópicos.
+
 ## Java Syntax Básica
 
 Vamos explorar os principais elementos da linguagem Java, incluindo terminologia, convenções de nomenclatura, variáveis, operadores e controle de fluxo, com exemplos ilustrativos.
@@ -978,5 +1038,5 @@ for (int i = 0; i < x; i++) {
 | 3        | 2   | 4   | 9   | 4 6 4 7 4 9      |
 | 4        | 3   | 4   | 12  | 4 6 4 7 4 9 4 12 |
 
-
+---
 
