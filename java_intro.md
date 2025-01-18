@@ -1,11 +1,5 @@
 # Introdução ao Java
 
-A linguagem de programação Java é uma das tecnologias mais influentes no desenvolvimento de software moderno, especialmente no desenvolvimento de sistemas robustos e escaláveis, destacando-se como uma das principais escolhas para **Desenvolvimento Back-end com Java**.
-
----
-
-## Origem e Motivação
-
 Na década de 1990, o desenvolvimento de software enfrentava desafios significativos, como:
 
 - Gerenciamento complexo de memória.
@@ -13,20 +7,17 @@ Na década de 1990, o desenvolvimento de software enfrentava desafios significat
 - Problemas de portabilidade entre sistemas operacionais.
 - Alto custo de implementação.
 
-Para resolver esses problemas, a **Sun Microsystems** formou o **"Green Team"**, liderado por **James Gosling**:
+Para resolver esses problemas, a **Sun Microsystems** formou o **"Green Team"**, liderado por **James Gosling**: 
 
-![Imagem de James Gosling](/images/jamesgosling.png)
+<div align="left">
+  <img src="images/jamesgosling.png" alt="Java" width="150">
+  <img src="images/java.png" alt="Java" width="200">
+</div>
 
 O objetivo da equipe era criar uma solução inovadora voltada inicialmente para pequenos dispositivos, como TVs e videocassetes.
-
-### Ideia Inicial
-
 O foco inicial era desenvolver uma linguagem que permitisse escrever um único código que funcionasse em diferentes dispositivos, facilitando a reusabilidade de software em eletrônicos variados.
 
-### Máquina Virtual Java (JVM)
-
 A equipe desenvolveu a **Máquina Virtual Java (JVM)**, que possibilita que o código Java seja interpretado e executado independentemente do hardware.
-
 Apesar de a ideia original não ter gerado contratos imediatos com fabricantes de eletrônicos, ela ganhou relevância com o advento da internet. Em **1994**, o Java foi reposicionado para rodar pequenas aplicações dentro de navegadores, conhecidas como **applets**, que poderiam ser executados diretamente no navegador, independente do sistema operacional.
 
 ---
@@ -38,33 +29,6 @@ Um dos grandes diferenciais do Java é seu conceito de **"escreva uma vez, rode 
 ### Como Funciona?
 
 A JVM atua como uma camada intermediária entre o código Java e o sistema operacional, tornando o Java uma linguagem multiplataforma desde sua criação. Esse recurso foi especialmente valioso no início dos anos 2000, quando diferentes sistemas operacionais eram amplamente utilizados.
-
----
-
-## O Papel da Oracle e a Evolução do Java
-
-Em **2009**, a **Sun Microsystems** foi adquirida pela **Oracle**, que assumiu a responsabilidade pelo desenvolvimento e manutenção do Java.
-
-### Investimentos da Oracle
-
-A Oracle investiu significativamente na plataforma, lançando atualizações regulares e aprimorando recursos, especialmente no **desenvolvimento de aplicações do lado do servidor**.
-
-### Marco do Java 8
-
-O **Java 8**, lançado em **2014**, representou um avanço significativo, introduzindo:
-
-- **Expressões Lambda**: Simplificação na manipulação de funções.
-- **API de Streams**: Facilitação na manipulação de coleções e aumento da produtividade no desenvolvimento.
-
----
-
-## Relevância Atual
-
-Hoje, o Java continua sendo:
-
-- Uma das linguagens preferidas para **desenvolvimento de aplicações empresariais**.
-- Uma escolha sólida para **sistemas de grande escala**.
-- Um pilar no **Desenvolvimento Back-end com Java**.
 
 ---
 
@@ -199,5 +163,80 @@ Componente responsável por executar o bytecode Java em qualquer máquina.
 - Inclui o JRE, a JVM e ferramentas adicionais como o compilador `javac`.
 - Essencial para **desenvolvedores Java**.
 
+----
+
+# Estrutura de uma Aplicação Java
+
+Na construção de uma aplicação Java, é fundamental entender como a organização dos arquivos impacta a legibilidade, modularidade e escalabilidade do sistema. Desde o início, Java foi projetado como uma linguagem **Orientada a Objetos (POO)**, onde as aplicações são compostas por classes organizadas de forma lógica e física.
+
+<img src="images/struct.png" alt="Java" width="500">
+
+Abaixo estão os principais elementos que compõem a estrutura de uma aplicação Java moderna.
+
 ---
+
+## 1. **Packages: Agrupamento Lógico de Classes**
+
+### Definição
+Os **packages** (ou pacotes) são usados para organizar classes de maneira lógica e hierárquica. Eles permitem:
+- Agrupar classes relacionadas em "pastas" virtuais.
+- Tornar o código mais modular e fácil de entender.
+- Evitar conflitos de nomes entre classes, especialmente em projetos grandes.
+
+<img src="images/package.png" alt="Java" width="500">
+
+### Vantagens
+- **Modularidade:** Agrupa classes relacionadas.
+- **Legibilidade:** Facilita a navegação pelo projeto.
+- **Evita Conflitos:** Classes com o mesmo nome podem coexistir em pacotes diferentes.
+
+### Exemplos de Packages Comuns
+
+| **Package**     | **Descrição**                                              |
+|------------------|-----------------------------------------------------------|
+| `entities`       | Contém classes que representam entidades do sistema, como `Produto`, `Cliente`, `Pedido`. |
+| `services`       | Armazena classes que implementam a lógica de negócios, como `PedidoService` ou `ClienteService`. |
+| `repositories`   | Contém classes que lidam com a persistência de dados, como `ProdutoRepository` ou `ClienteRepository`. |
+
+---
+
+## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
+
+### Definição
+Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrupar pacotes relacionados em um conjunto lógico maior. Eles fornecem:
+- Maior controle sobre a organização e o compartilhamento de código.
+- Segurança e eficiência ao expor apenas pacotes e classes necessários para outros módulos.
+
+<img src="images/modules.png" alt="Java" width="700">
+
+### Vantagens
+- **Modularidade Maior:** Organiza pacotes em agrupamentos lógicos maiores.
+- **Controle de Acesso:** Expõe apenas o que é necessário.
+- **Escalabilidade:** Facilita o desenvolvimento de aplicações maiores.
+
+### Exemplo de Módulos
+
+| **Módulo**        | **Pacotes Incluídos**                                                      |
+|--------------------|---------------------------------------------------------------------------|
+| `Módulo Financeiro` | Contém pacotes como `entities`, `services` e `repositories` voltados para a lógica financeira. |
+| `Módulo Gráficos`   | Inclui pacotes como `graphics`, `graphics3d` e `utilities`, relacionados ao processamento gráfico. |
+
+---
+
+## 3. **Runtime: Agrupamento Físico de Módulos**
+
+### Definição
+O **runtime** refere-se ao agrupamento físico dos módulos necessários para a execução de uma aplicação. Ele representa os módulos e pacotes que serão compilados e estarão disponíveis em tempo de execução.
+
+### Características
+- **Nível Lógico:** Módulos como `Financeiro` e `Gráficos` são agrupados e organizados em código.
+- **Nível Físico:** Após a compilação, esses módulos geram o **build/runtime**, que consiste em arquivos executáveis que representam a unidade física da aplicação.
+
+### Exemplo
+Se uma aplicação contém os módulos `Financeiro` e `Gráficos`:
+- **Lógico:** Organização dos pacotes e classes em módulos.
+- **Físico:** Os módulos são compilados em arquivos executáveis (por exemplo, `.jar`) e instalados no dispositivo para execução.
+
+---
+
 
