@@ -132,7 +132,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Passo 2: Criar uma Classe Java
 1. Clique com o botão direito no projeto recém-criado (no painel *Project Explorer*), selecione **New > Class**.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install8.png" alt="Java" width="500">
 
 2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
 
