@@ -119,7 +119,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Criar Projeto
 1. Vá em **File > New > Java Project**.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install6.png" alt="Java" width="500">
 
 ## Verificando o Funcionamento do Ambiente
 
