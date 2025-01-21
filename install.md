@@ -104,14 +104,22 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Mudar o Layout
 1. Vá em **Window > Perspective > Open Perspective > Java**.
 
+<img src="images/install2" alt="Java" width="500">
+
 ### Zerar o Layout
 1. Acesse **Window > Perspective > Reset Perspective**.
+
+<img src="images/install2" alt="Java" width="500">
 
 ### Mostrar a Aba Console
 1. Navegue até **Window > Show View > Console**.
 
+<img src="images/install2" alt="Java" width="500">
+
 ### Criar Projeto
 1. Vá em **File > New > Java Project**.
+
+<img src="images/install2" alt="Java" width="500">
 
 ## Verificando o Funcionamento do Ambiente
 
@@ -119,10 +127,20 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 1. No Eclipse, vá para **File > New > Java Project**.
 2. Digite o nome do projeto (por exemplo, `HelloWorld`) e clique em **Finish**.
 
+<img src="images/install2" alt="Java" width="500">
+
 ### Passo 2: Criar uma Classe Java
 1. Clique com o botão direito no projeto recém-criado (no painel *Project Explorer*), selecione **New > Class**.
+
+<img src="images/install2" alt="Java" width="500">
+
 2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
+
+<img src="images/install2" alt="Java" width="500">
+
 3. Clique em **Finish**.
+
+<img src="images/install2" alt="Java" width="500">
 
 ### Passo 3: Escrever e Executar o Código
 Digite o seguinte código no editor de código:
@@ -133,6 +151,8 @@ public class HelloWorld {
     }
 }
 ```
+
+---
 
 # Criando um Novo Projeto Java Diretamente pelo Eclipse
 
