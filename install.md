@@ -1,5 +1,44 @@
 # Instalação
 
+# Sumário
+
+1. [Instalação](#instalação)
+   - [Instalando o JDK da Oracle](#instalando-o-jdk-da-oracle)
+     - [Passo 1: Baixar o JDK](#passo-1-baixar-o-jdk)
+     - [Passo 2: Executar o Instalador do JDK](#passo-2-executar-o-instalador-do-jdk)
+     - [Passo 3: Configurar a Variável de Ambiente JAVA_HOME](#passo-3-configurar-a-variável-de-ambiente-java_home)
+     - [Passo 4: Adicionar o JDK ao PATH](#passo-4-adicionar-o-jdk-ao-path)
+     - [Passo 5: Verificar a Instalação do JDK](#passo-5-verificar-a-instalação-do-jdk)
+   - [Instalando o Eclipse IDE](#instalando-o-eclipse-ide)
+     - [Passo 1: Baixar o Eclipse IDE](#passo-1-baixar-o-eclipse-ide)
+     - [Passo 2: Executar o Instalador do Eclipse](#passo-2-executar-o-instalador-do-eclipse)
+     - [Passo 3: Iniciar o Eclipse IDE](#passo-3-iniciar-o-eclipse-ide)
+
+2. [Preparando o Ambiente](#preparando-o-ambiente)
+   - [Mudar o Layout](#mudar-o-layout)
+   - [Zerar o Layout](#zerar-o-layout)
+   - [Mostrar a Aba Console](#mostrar-a-aba-console)
+   - [Criar Projeto](#criar-projeto)
+
+3. [Verificando o Funcionamento do Ambiente](#verificando-o-funcionamento-do-ambiente)
+   - [Passo 1: Criar um Novo Projeto Java no Eclipse](#passo-1-criar-um-novo-projeto-java-no-eclipse)
+   - [Passo 2: Criar uma Classe Java](#passo-2-criar-uma-classe-java)
+   - [Passo 3: Escrever e Executar o Código](#passo-3-escrever-e-executar-o-código)
+
+4. [Criando um Novo Projeto Java Diretamente pelo Eclipse](#criando-um-novo-projeto-java-diretamente-pelo-eclipse)
+   - [Abrir o Eclipse](#abrir-o-eclipse)
+   - [Iniciar um Novo Projeto](#iniciar-um-novo-projeto)
+   - [Definir o Nome e Localização do Projeto](#definir-o-nome-e-localização-do-projeto)
+   - [Escolher a Versão do JRE ou JDK](#escolher-a-versão-do-jre-ou-jdk)
+   - [Ajustar Layout do Projeto (Opcional)](#ajustar-layout-do-projeto-opcional)
+   - [Finalizar a Criação](#finalizar-a-criação)
+   - [Verificar Estrutura no Package Explorer](#verificar-estrutura-no-package-explorer)
+   - [Criar uma Classe Principal (Opcional)](#criar-uma-classe-principal-opcional)
+   - [Executar o Projeto](#executar-o-projeto)
+
+5. [Conclusão](#conclusão)
+
+
 Para iniciar o desenvolvimento em Java, é necessário instalar o Java Development Kit (JDK), que fornece as ferramentas essenciais para compilar e executar programas Java. Em seguida, vamos instalar o Eclipse IDE, um ambiente integrado que facilita a escrita e o gerenciamento do código Java. Abaixo, apresento um guia passo a passo detalhado para a instalação no sistema operacional Windows.
 
 ## Instalando o JDK da Oracle
@@ -89,8 +128,9 @@ public class HelloWorld {
         System.out.println("Olá, mundo!");
     }
 }
+```
 
-**Criando um Novo Projeto Java Diretamente pelo Eclipse**
+# Criando um Novo Projeto Java Diretamente pelo Eclipse
 
 1. **Abrir o Eclipse**  
    - Inicie o Eclipse a partir do atalho ou menu de aplicativos.  
