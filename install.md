@@ -104,12 +104,12 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Mudar o Layout
 1. Vá em **Window > Perspective > Open Perspective > Java**.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install3.png" alt="Java" width="500">
 
 ### Zerar o Layout
 1. Acesse **Window > Perspective > Reset Perspective**.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install4.png alt="Java" width="500">
 
 ### Mostrar a Aba Console
 1. Navegue até **Window > Show View > Console**.
