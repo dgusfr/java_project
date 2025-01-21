@@ -48,6 +48,8 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 2. Clique na versão mais recente do Java SE Development Kit (JDK) disponível. A versão recomendada será indicada na página.
 3. Na seção de downloads, selecione o arquivo de instalação para Windows, geralmente nomeado como `jdk-[versão]_windows-x64_bin.exe`.
 
+<img src="images/install1" alt="Java" width="500">
+
 ### Passo 2: Executar o Instalador do JDK
 1. Localize o arquivo baixado (`jdk-[versão]_windows-x64_bin.exe`) na pasta de downloads.
 2. Clique duas vezes no arquivo para iniciar o instalador.
@@ -88,6 +90,8 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 2. No instalador, selecione *Eclipse IDE for Java Developers*.
 3. Escolha o diretório onde o Eclipse será instalado ou mantenha o padrão (geralmente em `C:\Users\[Seu Usuário]\eclipse`).
 4. Clique em **INSTALL** para iniciar a instalação. Aceite os termos de licença se solicitado.
+
+
 
 ### Passo 3: Iniciar o Eclipse IDE
 1. Após a instalação, clique em **Launch** para abrir o Eclipse.
