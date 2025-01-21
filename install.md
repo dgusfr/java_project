@@ -48,7 +48,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 2. Clique na versão mais recente do Java SE Development Kit (JDK) disponível. A versão recomendada será indicada na página.
 3. Na seção de downloads, selecione o arquivo de instalação para Windows, geralmente nomeado como `jdk-[versão]_windows-x64_bin.exe`.
 
-<img src="images/install1.png" alt="Java" width="500">
+<img src="images/install1.png" alt="Java" width="700">
 
 ### Passo 2: Executar o Instalador do JDK
 1. Localize o arquivo baixado (`jdk-[versão]_windows-x64_bin.exe`) na pasta de downloads.
@@ -104,22 +104,22 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Mudar o Layout
 1. Vá em **Window > Perspective > Open Perspective > Java**.
 
-<img src="images/install3.png" alt="Java" width="500">
+<img src="images/install3.png" alt="Java" width="700">
 
 ### Zerar o Layout
 1. Acesse **Window > Perspective > Reset Perspective**.
 
-<img src="images/install4.png" alt="Java" width="500">
+<img src="images/install4.png" alt="Java" width="700">
 
 ### Mostrar a Aba Console
 1. Navegue até **Window > Show View > Console**.
 
-<img src="images/install5.png" alt="Java" width="500">
+<img src="images/install5.png" alt="Java" width="700">
 
 ### Criar Projeto
 1. Vá em **File > New > Java Project**.
 
-<img src="images/install6.png" alt="Java" width="500">
+<img src="images/install6.png" alt="Java" width="700">
 
 ## Verificando o Funcionamento do Ambiente
 
@@ -127,18 +127,18 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 1. No Eclipse, vá para **File > New > Java Project**.
 2. Digite o nome do projeto (por exemplo, `HelloWorld`) e clique em **Finish**.
 
-<img src="images/install7.png" alt="Java" width="500">
+<img src="images/install7.png" alt="Java" width="700">
 
 ### Passo 2: Criar uma Classe Java
 1. Clique com o botão direito no projeto recém-criado (no painel *Project Explorer*), selecione **New > Class**.
 
-<img src="images/install8.png" alt="Java" width="500">
+<img src="images/install8.png" alt="Java" width="700">
 
-<img src="images/install9.png" alt="Java" width="500">
+<img src="images/install9.png" alt="Java" width="700">
 
 2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
 
-<img src="images/install10.png" alt="Java" width="500">
+<img src="images/install10.png" alt="Java" width="700">
 
 3. Clique em **Finish**.
 
