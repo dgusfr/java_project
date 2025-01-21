@@ -136,7 +136,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 
 2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install9.png" alt="Java" width="500">
 
 3. Clique em **Finish**.
 
