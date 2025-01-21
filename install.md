@@ -91,7 +91,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 3. Escolha o diretório onde o Eclipse será instalado ou mantenha o padrão (geralmente em `C:\Users\[Seu Usuário]\eclipse`).
 4. Clique em **INSTALL** para iniciar a instalação. Aceite os termos de licença se solicitado.
 
-<img src="images/install2.png" alt="Java" width="500">
+<img src="images/install2.png" alt="Java" width="900">
 
 ### Passo 3: Iniciar o Eclipse IDE
 1. Após a instalação, clique em **Launch** para abrir o Eclipse.
