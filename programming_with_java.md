@@ -1,7 +1,5 @@
 # Programação com Java
 
-# Programação com Java
-
 ## Sumário
 1. [Java Syntax Básica](#java-syntax-básica)
     1. [Terminologia Básica e Convenções de Nomenclatura](#1-terminologia-básica-e-convenções-de-nomenclatura)
