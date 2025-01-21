@@ -24,8 +24,6 @@
      - **Create separate folders for sources and class files**: separa arquivos `.class` em uma pasta `bin`.  
    - Escolha de acordo com sua preferência.
 
-<img src="images/struct.png" alt="Java" width="500">
-
 6. **Finalizar a Criação**  
    - Clique em **Finish**.  
    - Se aparecer a mensagem **Open Associated Perspective**, confirme com **Yes** para abrir a perspectiva Java.
