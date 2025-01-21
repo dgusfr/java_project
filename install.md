@@ -127,7 +127,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 1. No Eclipse, vá para **File > New > Java Project**.
 2. Digite o nome do projeto (por exemplo, `HelloWorld`) e clique em **Finish**.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install7.png";" alt="Java" width="500">
 
 ### Passo 2: Criar uma Classe Java
 1. Clique com o botão direito no projeto recém-criado (no painel *Project Explorer*), selecione **New > Class**.
