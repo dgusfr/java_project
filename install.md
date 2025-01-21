@@ -109,7 +109,7 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 ### Zerar o Layout
 1. Acesse **Window > Perspective > Reset Perspective**.
 
-<img src="images/install4.png alt="Java" width="500">
+<img src="images/install4.png" alt="Java" width="500">
 
 ### Mostrar a Aba Console
 1. Navegue até **Window > Show View > Console**.
@@ -127,20 +127,20 @@ Para iniciar o desenvolvimento em Java, é necessário instalar o Java Developme
 1. No Eclipse, vá para **File > New > Java Project**.
 2. Digite o nome do projeto (por exemplo, `HelloWorld`) e clique em **Finish**.
 
-<img src="images/install7.png";" alt="Java" width="500">
+<img src="images/install7.png" alt="Java" width="500">
 
 ### Passo 2: Criar uma Classe Java
 1. Clique com o botão direito no projeto recém-criado (no painel *Project Explorer*), selecione **New > Class**.
 
 <img src="images/install8.png" alt="Java" width="500">
 
-2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
-
 <img src="images/install9.png" alt="Java" width="500">
 
-3. Clique em **Finish**.
+2. No campo **Name**, insira `HelloWorld` e marque a opção para adicionar o método `public static void main(String[] args)`.
 
-<img src="images/install2" alt="Java" width="500">
+<img src="images/install10.png" alt="Java" width="500">
+
+3. Clique em **Finish**.
 
 ### Passo 3: Escrever e Executar o Código
 Digite o seguinte código no editor de código:
