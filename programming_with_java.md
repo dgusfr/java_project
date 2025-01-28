@@ -149,7 +149,6 @@ Bom dia!
 Como você está?
 ```
 
----
 
 ### 3.2 Imprimindo o Conteúdo de Variáveis
 
