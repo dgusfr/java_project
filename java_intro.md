@@ -192,8 +192,6 @@ Os **packages** (ou pacotes) são usados para organizar classes de maneira lógi
 | `services`       | Armazena classes que implementam a lógica de negócios, como `PedidoService` ou `ClienteService`. |
 | `repositories`   | Contém classes que lidam com a persistência de dados, como `ProdutoRepository` ou `ClienteRepository`. |
 
----
-
 ## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
 
 ### Definição
