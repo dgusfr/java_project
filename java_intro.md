@@ -125,8 +125,6 @@ Uma abordagem híbrida que combina compilação e interpretação.
 - Java: **Java Virtual Machine (JVM)**.  
 - C#: **Microsoft .NET Framework**.
 
----
-
 ### Definições de Conceitos
 - **Código Fonte:** Texto original escrito pelo programador.  
 - **Código Objeto:** Código binário gerado após a compilação, pronto para execução.
