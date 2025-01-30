@@ -106,8 +106,6 @@ Tradução do código-fonte para código de máquina antes da execução, gerand
 
 ![Imagem de Compilador](/images/compilador.png)
 
----
-
 ### 5.2 Interpretação
 O código é analisado e executado linha por linha por um **interpretador**.
 
