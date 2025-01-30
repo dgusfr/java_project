@@ -116,8 +116,6 @@ O código é analisado e executado linha por linha por um **interpretador**.
 
 ![Imagem de Maquina virtual](/images/mv.png)
 
----
-
 ### 5.3 Máquina Virtual
 Uma abordagem híbrida que combina compilação e interpretação.  
 1. O código-fonte é compilado em **bytecode**.
