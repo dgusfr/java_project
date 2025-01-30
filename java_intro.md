@@ -228,5 +228,3 @@ Se uma aplicação contém os módulos `Financeiro` e `Gráficos`:
 - **Físico:** Os módulos são compilados em arquivos executáveis (por exemplo, `.jar`) e instalados no dispositivo para execução.
 
 ---
-
-
