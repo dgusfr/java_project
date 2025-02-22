@@ -262,4 +262,4 @@ Vá em **Project > Properties > Java Compiler** e ajuste a versão conforme a do
 **Erro ao rodar classes com `package` declarado:**  
 Garanta que a estrutura de pastas do projeto corresponda ao nome dos pacotes definidos no código  
 
-Seguindo esses passos, seu projeto Java existente estará pronto para ser utilizado no Eclipse. Se encontrar dificuldades específicas, ajuste as configurações conforme as mensagens de erro ou avisos exibidos pelo ambiente
+
