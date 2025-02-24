@@ -1,7 +1,5 @@
 # Programação com Java
 
-# Programação com Java
-
 ## Sumário
 1. [Java Syntax Básica](#java-syntax-básica)
     1. [Terminologia Básica e Convenções de Nomenclatura](#1-terminologia-básica-e-convenções-de-nomenclatura)
@@ -151,7 +149,6 @@ Bom dia!
 Como você está?
 ```
 
----
 
 ### 3.2 Imprimindo o Conteúdo de Variáveis
 
@@ -193,7 +190,7 @@ Saída:
 10.3578
 ```
 
----
+
 
 ### 3.3 Formatação de Saída com `System.out.printf()`
 

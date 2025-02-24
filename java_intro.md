@@ -106,8 +106,6 @@ Tradução do código-fonte para código de máquina antes da execução, gerand
 
 ![Imagem de Compilador](/images/compilador.png)
 
----
-
 ### 5.2 Interpretação
 O código é analisado e executado linha por linha por um **interpretador**.
 
@@ -118,8 +116,6 @@ O código é analisado e executado linha por linha por um **interpretador**.
 
 ![Imagem de Maquina virtual](/images/mv.png)
 
----
-
 ### 5.3 Máquina Virtual
 Uma abordagem híbrida que combina compilação e interpretação.  
 1. O código-fonte é compilado em **bytecode**.
@@ -128,8 +124,6 @@ Uma abordagem híbrida que combina compilação e interpretação.
 #### Exemplo
 - Java: **Java Virtual Machine (JVM)**.  
 - C#: **Microsoft .NET Framework**.
-
----
 
 ### Definições de Conceitos
 - **Código Fonte:** Texto original escrito pelo programador.  
@@ -198,8 +192,6 @@ Os **packages** (ou pacotes) são usados para organizar classes de maneira lógi
 | `services`       | Armazena classes que implementam a lógica de negócios, como `PedidoService` ou `ClienteService`. |
 | `repositories`   | Contém classes que lidam com a persistência de dados, como `ProdutoRepository` ou `ClienteRepository`. |
 
----
-
 ## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
 
 ### Definição
@@ -221,8 +213,6 @@ Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrup
 | `Módulo Financeiro` | Contém pacotes como `entities`, `services` e `repositories` voltados para a lógica financeira. |
 | `Módulo Gráficos`   | Inclui pacotes como `graphics`, `graphics3d` e `utilities`, relacionados ao processamento gráfico. |
 
----
-
 ## 3. **Runtime: Agrupamento Físico de Módulos**
 
 ### Definição
@@ -238,5 +228,3 @@ Se uma aplicação contém os módulos `Financeiro` e `Gráficos`:
 - **Físico:** Os módulos são compilados em arquivos executáveis (por exemplo, `.jar`) e instalados no dispositivo para execução.
 
 ---
-
-
