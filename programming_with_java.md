@@ -62,7 +62,7 @@ Vamos explorar os principais elementos da linguagem Java, incluindo terminologia
 
 ---
 
-## 1. Terminologia Básica e Convenções de Nomenclatura
+
 
 ### 1.1 Principais Termos
 
