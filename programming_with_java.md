@@ -59,10 +59,6 @@
 ## Java Syntax Básica
 
 
----
-
-
-
 ### 1.1 Principais Termos
 
 - **Class:** Define um modelo para objetos e é a unidade fundamental do código em Java. Toda aplicação Java é composta por classes.
