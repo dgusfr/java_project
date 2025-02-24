@@ -56,8 +56,6 @@
 
 ---
 
-Agora o documento está estruturado com links para facilitar a navegação entre os tópicos.
-
 ## Java Syntax Básica
 
 Vamos explorar os principais elementos da linguagem Java, incluindo terminologia, convenções de nomenclatura, variáveis, operadores e controle de fluxo, com exemplos ilustrativos.
