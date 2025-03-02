@@ -38,32 +38,33 @@ Oi### Lista de Exercícios
     
 
 15. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
+    
 
-16. **Imprima os números primos entre 1 e 100.**
+17. **Imprima os números primos entre 1 e 100.**
 
-17. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
+18. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
 
-18. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
+19. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
 
-19. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
+20. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
 
-20. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
+21. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
 
-21. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
+22. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
 
-22. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
+23. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
 
-23. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
+24. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
 
-24. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
+25. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
 
-25. **Imprima os quadrados perfeitos entre 1 e 200.**
+26. **Imprima os quadrados perfeitos entre 1 e 200.**
 
-26. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
+27. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
 
-27. **Crie um programa que leia dois números inteiros e calcule a soma de todos os números pares entre eles.**
+28. **Crie um programa que leia dois números inteiros e calcule a soma de todos os números pares entre eles.**
 
-28. **Implemente um programa que leia um número inteiro e determine quantos números primos menores que ele existem.**
+29. **Implemente um programa que leia um número inteiro e determine quantos números primos menores que ele existem.**
 
-29. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
+30. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
 
