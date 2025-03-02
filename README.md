@@ -19,8 +19,9 @@
     
 
 12. **Implemente a lógica de Collatz:** Para um número `x`, se for par, divida por 2, se for ímpar, calcule `3 * x + 1`, e imprima até `x` ser 1.
+    
 
-13. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
+14. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
    ```
    1
    2 4
