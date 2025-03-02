@@ -16,10 +16,11 @@
    
 
 10. **Imprima os primeiros números da série de Fibonacci até que o valor ultrapasse 100.**
+    
 
-11. **Implemente a lógica de Collatz:** Para um número `x`, se for par, divida por 2, se for ímpar, calcule `3 * x + 1`, e imprima até `x` ser 1.
+12. **Implemente a lógica de Collatz:** Para um número `x`, se for par, divida por 2, se for ímpar, calcule `3 * x + 1`, e imprima até `x` ser 1.
 
-12. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
+13. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
    ```
    1
    2 4
