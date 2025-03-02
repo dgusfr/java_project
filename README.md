@@ -30,6 +30,7 @@
    n n*2 n*3 .... n*n
    ```
 
+
 11. **Refaça o exercício da série de Fibonacci utilizando apenas duas variáveis.**
 
 12. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
