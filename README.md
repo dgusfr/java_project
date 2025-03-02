@@ -2,6 +2,7 @@
 
 1. **Imprima os números de 150 a 300.**
 
+
 2. **Calcule e exiba a soma dos números de 1 a 1000.**
 
 3. **Imprima todos os múltiplos de 3 entre 1 e 100.**
