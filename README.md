@@ -1,4 +1,4 @@
-### Lista de Exercícios 
+Oi### Lista de Exercícios 
 
 1. **Imprima os números de 150 a 300.**
 
@@ -33,37 +33,37 @@
 
 11. **Refaça o exercício da série de Fibonacci utilizando apenas duas variáveis.**
 
-12. 
 
 13. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
+    
 
-14. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
+15. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
 
-15. **Imprima os números primos entre 1 e 100.**
+16. **Imprima os números primos entre 1 e 100.**
 
-16. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
+17. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
 
-17. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
+18. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
 
-18. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
+19. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
 
-19. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
+20. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
 
-20. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
+21. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
 
-21. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
+22. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
 
-22. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
+23. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
 
-23. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
+24. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
 
-24. **Imprima os quadrados perfeitos entre 1 e 200.**
+25. **Imprima os quadrados perfeitos entre 1 e 200.**
 
-25. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
+26. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
 
-26. **Crie um programa que leia dois números inteiros e calcule a soma de todos os números pares entre eles.**
+27. **Crie um programa que leia dois números inteiros e calcule a soma de todos os números pares entre eles.**
 
-27. **Implemente um programa que leia um número inteiro e determine quantos números primos menores que ele existem.**
+28. **Implemente um programa que leia um número inteiro e determine quantos números primos menores que ele existem.**
 
-28. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
+29. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
 
