@@ -1,4 +1,4 @@
-Oi### Lista de Exercícios 
+### Lista de Exercícios 
 
 1. **Imprima os números de 150 a 300.**
 
