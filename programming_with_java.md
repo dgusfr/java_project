@@ -588,6 +588,23 @@ Estou aprendendo Java.
 
 ---
 
+### Resumindo
+
+
+| **Tipo de Dado**       | **Método**           | **Uso**                                                | **Exemplo de Entrada**       | **Saída Esperada**             |
+|------------------------|----------------------|--------------------------------------------------------|-----------------------------|--------------------------------|
+| **Palavra (`String`)** | `sc.next()`          | Lê uma palavra (até o primeiro espaço)                 | `Maria`                     | `Você digitou: Maria`         |
+| **Número Inteiro (`int`)** | `sc.nextInt()`   | Lê um número inteiro                                   | `32`                        | `Você digitou: 32`            |
+| **Número Decimal (`double`)** | `sc.nextDouble()` | Lê um número com ponto flutuante (`.` no padrão US)  | `10.35784`                  | `Você digitou: 10.36`         |
+| **Caractere (`char`)** | `sc.next().charAt(0)` | Lê um único caractere (primeiro da entrada)           | `A`                         | `Você digitou: A`             |
+| **Múltiplos Dados** | `sc.next()`, `sc.nextInt()`, `sc.nextDouble()` | Lê diversos dados na mesma linha separados por espaço | `Maria 32 10.35784`         | `Você digitou: Maria, 32 e 10.35784` |
+| **Linha Completa (`String`)** | `sc.nextLine()` | Lê toda a linha de texto, incluindo espaços           | `Olá, meu nome é Maria.`    | `DADOS DIGITADOS: Olá, meu nome é Maria.` |
+
+
+---
+
+<br>
+
 ## 5. Comentários em Java
 
 ### 5.1 Comentário de Linha Única
