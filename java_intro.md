@@ -49,6 +49,8 @@ Apesar de a ideia original não ter gerado contratos imediatos com fabricantes d
 
 ---
 
+<br>
+
 # Java: Uma Linguagem Multiplataforma
 
 Um dos grandes diferenciais do Java é seu conceito de **"escreva uma vez, rode em qualquer lugar"** (*write once, run anywhere*). Isso significa que um programa escrito em Java pode ser executado em qualquer sistema operacional que tenha uma **JVM** instalada.
@@ -58,6 +60,8 @@ Um dos grandes diferenciais do Java é seu conceito de **"escreva uma vez, rode 
 A JVM atua como uma camada intermediária entre o código Java e o sistema operacional, tornando o Java uma linguagem multiplataforma desde sua criação. Esse recurso foi especialmente valioso no início dos anos 2000, quando diferentes sistemas operacionais eram amplamente utilizados.
 
 ---
+
+<br>
 
 # Introdução à Programação com Java
 
@@ -87,6 +91,8 @@ Um programa de calculadora que permite ao usuário realizar operações matemát
 
 ---
 
+<br>
+
 ## 3. Regras de Linguagem
 
 ### 3.1 Regras Léxicas
@@ -105,6 +111,8 @@ Definem como organizar as palavras e símbolos para formar sentenças válidas n
 
 ---
 
+<br>
+
 ## 4. IDE (Integrated Development Environment)
 
 ### Definição
@@ -117,6 +125,8 @@ Uma **IDE** é um ambiente integrado de desenvolvimento que oferece ferramentas 
 4. **Templates:** Modelos prontos para acelerar o desenvolvimento.
 
 ---
+
+<br>
 
 ## 5. Execução de Código
 
@@ -160,6 +170,8 @@ Uma abordagem híbrida que combina compilação e interpretação.
 
 ---
 
+<br>
+
 ## 6. Versões do Java
 
 ### Principais Versões
@@ -169,6 +181,8 @@ Uma abordagem híbrida que combina compilação e interpretação.
 4. **Java 6, 7 e 8:** Adoção da convenção numérica simplificada e introdução de recursos como expressões lambda e API de Streams (Java 8).
 
 ---
+
+<br>
 
 ## 7. O Que Baixar: JVM, JRE ou JDK?
 
@@ -185,6 +199,9 @@ Componente responsável por executar o bytecode Java em qualquer máquina.
 - Essencial para **desenvolvedores Java**.
 
 ----
+
+<br>
+<br>
 
 # Estrutura de uma Aplicação Java
 
@@ -218,6 +235,8 @@ Os **packages** (ou pacotes) são usados para organizar classes de maneira lógi
 | `entities`       | Contém classes que representam entidades do sistema, como `Produto`, `Cliente`, `Pedido`. |
 | `services`       | Armazena classes que implementam a lógica de negócios, como `PedidoService` ou `ClienteService`. |
 | `repositories`   | Contém classes que lidam com a persistência de dados, como `ProdutoRepository` ou `ClienteRepository`. |
+
+<br>
 
 ## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
 
