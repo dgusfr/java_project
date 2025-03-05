@@ -19,7 +19,6 @@
         - [Ponto Flutuante](#variáveis-de-ponto-flutuante)
     3. [Formatação com `System.out.printf()`](#33-formatação-de-saída-com-systemoutprintf)
         - [Placeholders Comuns](#placeholders-comuns)
-        - [Controlando o Separador de Decimais](#34-controlando-o-separador-de-decimais)
     4. [Concatenando Elementos na Saída](#4-concatenando-elementos-na-saída)
         - [Usando `+` com `print` e `println`](#41-usando-com-print-e-println)
         - [Usando `printf`](#42-usando-printf-com-placeholders)
@@ -176,6 +175,9 @@ Olá, mundo!
 ```
 
 ---
+
+<br>
+<br>
 
 ## 3. Entrada e Saída de Dados
 
@@ -362,7 +364,6 @@ Maria tem 31 anos e ganha R$ 4000.00 reais
 - Utilize `System.out.print()` para exibir mensagens na mesma linha.
 - Utilize `System.out.println()` para adicionar quebras de linha ao final das mensagens.
 - Formate saídas complexas com `System.out.printf()` para maior controle sobre a exibição.
-- Use `Locale` para ajustar separadores decimais e garantir a consistência das saídas numéricas.
 
 ---
 
