@@ -649,6 +649,9 @@ Esses comentários explicam funcionalidades, parâmetros e retornos, tornando o 
 
 ---
 
+<br>
+<br>
+
 # Tipos de Dados e Variáveis em Java
 
 ## Variáveis
