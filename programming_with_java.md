@@ -297,32 +297,6 @@ Maria tem 31 anos e ganha R$ 4000.00 reais
 
 ---
 
-### 3.4 Controlando o Separador de Decimais
-
-Por padrão, o Java usa o separador de decimais baseado na localidade do sistema. Para garantir o uso do ponto como separador, defina a localidade como US.
-
-#### Exemplo:
-
-```java
-import java.util.Locale;
-import java.util.Scanner;
-
-public class LocaleExample {
-    public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Digite um número com decimais: ");
-        double numero = scanner.nextDouble();
-
-        System.out.printf("Você digitou: %.2f%n", numero);
-        scanner.close();
-    }
-}
-```
-
----
-
 ## 4. Concatenando Elementos na Saída
 
 ### 4.1 Usando `+` com `print` e `println`
