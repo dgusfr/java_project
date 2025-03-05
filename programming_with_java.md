@@ -53,10 +53,10 @@
     - [Estrutura `while`](#1-estrutura-while)
     - [Estrutura `for`](#2-estrutura-for)
     - [Estrutura `do-while`](#3-estrutura-do-while)
-12. [Teste de Mesa](#teste-de-mesa)
-    - [Exemplo com `while`](#exemplo-com-while)
-    - [Exemplo com `for`](#exemplo-com-for)
-
+    - [Estrutura `do-while`](#3-estrutura-do-while)
+    - [Estrutura `switch`](#4-estrutura-switch)
+    - [Estrutura `switch`](#4-estrutura-switch)
+    
 ---
 
 
@@ -1062,46 +1062,104 @@ do {
 
 ---
 
-## Teste de Mesa
+### 4. Estrutura `switch`
 
-### Exemplo com `while`
+O `switch` é uma estrutura condicional utilizada para comparar um valor com múltiplas possibilidades (`case`). Ele é útil quando há diversas opções e evita o uso excessivo de `if-else`.
+
+### **Sintaxe**
 ```java
-int x = 0;
-while (x < 5) {
-    int y = x * 3;
-    System.out.print(y);
-    x = x + 1;
+switch (expressão) {
+    case valor1:
+        // Comandos executados se expressão == valor1
+        break;
+    case valor2:
+        // Comandos executados se expressão == valor2
+        break;
+    default:
+        // Comandos executados se nenhum dos casos for verdadeiro
 }
 ```
-**Iterações:**
-| Iteração | `x` | `y` | Saída    |
-|----------|------|-----|----------|
-| Inicial  | 0    | -   | -        |
-| 1        | 0    | 0   | 0        |
-| 2        | 1    | 3   | 03       |
-| 3        | 2    | 6   | 036      |
-| 4        | 3    | 9   | 0369     |
-| 5        | 4    | 12  | 036912   |
+
+### **Exemplo**
+```java
+int dia = 3;
+switch (dia) {
+    case 1:
+        System.out.println("Domingo");
+        break;
+    case 2:
+        System.out.println("Segunda-feira");
+        break;
+    case 3:
+        System.out.println("Terça-feira");
+        break;
+    default:
+        System.out.println("Dia inválido");
+}
+```
+**Saída:**  
+```
+Terça-feira
+```
+- Se `dia` for igual a `3`, o programa imprime "Terça-feira".
+- O `break` evita que os casos seguintes sejam executados.
+- O `default` funciona como um `else`, sendo executado caso nenhuma das condições seja atendida.
 
 ---
 
-### Exemplo com `for`
+## 5. Controlando Loops (`break` e `continue`)
+
+Embora os loops (`for`, `while`, `do-while`) sejam controlados por expressões booleanas, algumas situações exigem que o laço seja interrompido antes de atingir sua condição final. Para isso, utilizamos:
+
+### **5.1 `break`**
+Interrompe imediatamente a execução do loop, saindo dele por completo.
+
+**Exemplo:**
 ```java
-int x = 4;
-int y = x + 2;
-for (int i = 0; i < x; i++) {
-    System.out.print(x + " " + y + " ");
-    y = y + i;
+for (int i = x; i < y; i++) {
+    if (i % 19 == 0) {
+        System.out.println("Achei um número divisível por 19 entre x e y");
+        break;
+    }
 }
 ```
-**Iterações:**
-| Iteração | `i` | `x` | `y` | Saída             |
-|----------|-----|-----|-----|-------------------|
-| Inicial  | -   | 4   | 6   | -                 |
-| 1        | 0   | 4   | 6   | 4 6              |
-| 2        | 1   | 4   | 7   | 4 6 4 7          |
-| 3        | 2   | 4   | 9   | 4 6 4 7 4 9      |
-| 4        | 3   | 4   | 12  | 4 6 4 7 4 9 4 12 |
+- O código percorre os números de `x` a `y`.
+- Assim que encontra um número divisível por `19`, ele imprime a mensagem e sai do `for`.
+
+### **5.2 `continue`**
+Faz com que a execução do loop pule para a próxima iteração, ignorando as instruções seguintes dentro do bloco.
+
+**Exemplo:**
+```java
+for (int i = 0; i < 100; i++) {
+    if (i > 50 && i < 60) {
+        continue;
+    }
+    System.out.println(i);
+}
+```
+- O código percorre de `0` a `99`, mas ignora a impressão dos números entre `51` e `59`.
+- Isso acontece porque, ao encontrar esses números, o `continue` pula a iteração, evitando a execução do `System.out.println(i)`.
+
+
+---
+
+## **6. Um Bloco Dentro do Outro**
+
+Blocos de código podem ser **aninhados**, ou seja, um bloco pode estar dentro de outro. Isso é comum em estruturas de repetição e condicionais.
+
+### **Exemplo de `for` dentro de `while`**
+```java
+while (condicao) {
+    for (int i = 0; i < 10; i++) {
+        // Código dentro do for
+    }
+}
+```
+- O `while` será executado enquanto a `condicao` for verdadeira.
+- Dentro dele, um `for` será executado **completamente** em cada iteração do `while`.
+
+Esse tipo de estrutura é muito útil para percorrer matrizes e trabalhar com estruturas de dados mais complexas.
 
 ---
 
