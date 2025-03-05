@@ -69,7 +69,6 @@ A JVM atua como uma camada intermediária entre o código Java e o sistema opera
 
 ## 1. Algoritmo
 
-### Definição
 Um algoritmo é uma sequência bem definida de passos que resolve um problema específico ou executa uma tarefa. Ele fornece instruções passo a passo para atingir um objetivo, seja resolver uma operação matemática, realizar um cálculo ou processar dados.
 
 ### Exemplo
@@ -83,7 +82,6 @@ Um algoritmo para somar dois números:
 
 ## 2. Programa
 
-### Definição
 Um programa é um conjunto de algoritmos codificados em uma linguagem que o computador entende e pode executar. Ele transforma um ou mais algoritmos em uma sequência de instruções que o computador segue para realizar tarefas automaticamente.
 
 ### Exemplo
