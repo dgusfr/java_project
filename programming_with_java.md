@@ -1,6 +1,10 @@
 # Programação com Java
 
 ## Sumário
+0. [Estrutura de uma Aplicação Java](#estrutura-de-uma-aplicação-java)
+    - [1. Packages: Agrupamento Lógico de Classes](#1-packages-agrupamento-lógico-de-classes)
+    - [2. Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes](#2-módulos-introduzido-no-java-9-agrupamento-lógico-de-pacotes)
+    - [3. Runtime: Agrupamento Físico de Módulos](#3-runtime-agrupamento-físico-de-módulos)
 1. [Java Syntax Básica](#java-syntax-básica)
     1. [Terminologia Básica e Convenções de Nomenclatura](#1-terminologia-básica-e-convenções-de-nomenclatura)
         - [Principais Termos](#11-principais-termos)
@@ -55,6 +59,85 @@
     - [Exemplo com `for`](#exemplo-com-for)
 
 ---
+
+
+<br>
+
+# Estrutura de uma Aplicação Java
+
+Na construção de uma aplicação Java, é fundamental entender como a organização dos arquivos impacta a legibilidade, modularidade e escalabilidade do sistema. Desde o início, Java foi projetado como uma linguagem **Orientada a Objetos (POO)**, onde as aplicações são compostas por classes organizadas de forma lógica e física.
+
+<img src="images/struct.png" alt="Java" width="500">
+
+Abaixo estão os principais elementos que compõem a estrutura de uma aplicação Java moderna.
+
+---
+
+## 1. **Packages: Agrupamento Lógico de Classes**
+
+### Definição
+Os **packages** (ou pacotes) são usados para organizar classes de maneira lógica e hierárquica. Eles permitem:
+- Agrupar classes relacionadas em "pastas" virtuais.
+- Tornar o código mais modular e fácil de entender.
+- Evitar conflitos de nomes entre classes, especialmente em projetos grandes.
+
+<img src="images/package.png" alt="Java" width="500">
+
+### Vantagens
+- **Modularidade:** Agrupa classes relacionadas.
+- **Legibilidade:** Facilita a navegação pelo projeto.
+- **Evita Conflitos:** Classes com o mesmo nome podem coexistir em pacotes diferentes.
+
+### Exemplos de Packages Comuns
+
+| **Package**     | **Descrição**                                              |
+|------------------|-----------------------------------------------------------|
+| `entities`       | Contém classes que representam entidades do sistema, como `Produto`, `Cliente`, `Pedido`. |
+| `services`       | Armazena classes que implementam a lógica de negócios, como `PedidoService` ou `ClienteService`. |
+| `repositories`   | Contém classes que lidam com a persistência de dados, como `ProdutoRepository` ou `ClienteRepository`. |
+
+<br>
+
+## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
+
+### Definição
+Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrupar pacotes relacionados em um conjunto lógico maior. Eles fornecem:
+- Maior controle sobre a organização e o compartilhamento de código.
+- Segurança e eficiência ao expor apenas pacotes e classes necessários para outros módulos.
+
+<img src="images/modules.png" alt="Java" width="700">
+
+### Vantagens
+- **Modularidade Maior:** Organiza pacotes em agrupamentos lógicos maiores.
+- **Controle de Acesso:** Expõe apenas o que é necessário.
+- **Escalabilidade:** Facilita o desenvolvimento de aplicações maiores.
+
+### Exemplo de Módulos
+
+| **Módulo**        | **Pacotes Incluídos**                                                      |
+|--------------------|---------------------------------------------------------------------------|
+| `Módulo Financeiro` | Contém pacotes como `entities`, `services` e `repositories` voltados para a lógica financeira. |
+| `Módulo Gráficos`   | Inclui pacotes como `graphics`, `graphics3d` e `utilities`, relacionados ao processamento gráfico. |
+
+<br>
+
+## 3. **Runtime: Agrupamento Físico de Módulos**
+
+### Definição
+O **runtime** refere-se ao agrupamento físico dos módulos necessários para a execução de uma aplicação. Ele representa os módulos e pacotes que serão compilados e estarão disponíveis em tempo de execução.
+
+### Características
+- **Nível Lógico:** Módulos como `Financeiro` e `Gráficos` são agrupados e organizados em código.
+- **Nível Físico:** Após a compilação, esses módulos geram o **build/runtime**, que consiste em arquivos executáveis que representam a unidade física da aplicação.
+
+### Exemplo
+Se uma aplicação contém os módulos `Financeiro` e `Gráficos`:
+- **Lógico:** Organização dos pacotes e classes em módulos.
+- **Físico:** Os módulos são compilados em arquivos executáveis (por exemplo, `.jar`) e instalados no dispositivo para execução.
+
+---
+
+<br>
 
 ## Java Syntax Básica
 

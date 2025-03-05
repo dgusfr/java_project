@@ -18,10 +18,7 @@
     - [7.1 JVM (Java Virtual Machine)](#71-jvm-java-virtual-machine)
     - [7.2 JRE (Java Runtime Environment)](#72-jre-java-runtime-environment)
     - [7.3 JDK (Java Development Kit)](#73-jdk-java-development-kit)
-- [Estrutura de uma Aplicação Java](#estrutura-de-uma-aplicação-java)
-  - [1. Packages: Agrupamento Lógico de Classes](#1-packages-agrupamento-lógico-de-classes)
-  - [2. Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes](#2-módulos-introduzido-no-java-9-agrupamento-lógico-de-pacotes)
-  - [3. Runtime: Agrupamento Físico de Módulos](#3-runtime-agrupamento-físico-de-módulos)
+
 
 ---
 
