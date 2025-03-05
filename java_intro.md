@@ -127,7 +127,6 @@ Uma **IDE** é um ambiente integrado de desenvolvimento que oferece ferramentas 
 
 ## 5. Execução de Código
 
-### Definição
 Transformar o código-fonte em instruções executáveis. Existem diferentes abordagens para isso:
 
 ### 5.1 Compilação
