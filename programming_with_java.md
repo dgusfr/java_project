@@ -67,7 +67,7 @@
 
 Na construção de uma aplicação Java, é fundamental entender como a organização dos arquivos impacta a legibilidade, modularidade e escalabilidade do sistema. Desde o início, Java foi projetado como uma linguagem **Orientada a Objetos (POO)**, onde as aplicações são compostas por classes organizadas de forma lógica e física.
 
-<img src="images/struct.png" alt="Java" width="500">
+<img src="images/struct.png" alt="Java" width="600">
 
 Abaixo estão os principais elementos que compõem a estrutura de uma aplicação Java moderna.
 
@@ -75,13 +75,12 @@ Abaixo estão os principais elementos que compõem a estrutura de uma aplicaçã
 
 ## 1. **Packages: Agrupamento Lógico de Classes**
 
-### Definição
 Os **packages** (ou pacotes) são usados para organizar classes de maneira lógica e hierárquica. Eles permitem:
 - Agrupar classes relacionadas em "pastas" virtuais.
 - Tornar o código mais modular e fácil de entender.
 - Evitar conflitos de nomes entre classes, especialmente em projetos grandes.
 
-<img src="images/package.png" alt="Java" width="500">
+<img src="images/package.png" alt="Java" width="600">
 
 ### Vantagens
 - **Modularidade:** Agrupa classes relacionadas.
@@ -100,7 +99,6 @@ Os **packages** (ou pacotes) são usados para organizar classes de maneira lógi
 
 ## 2. **Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes**
 
-### Definição
 Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrupar pacotes relacionados em um conjunto lógico maior. Eles fornecem:
 - Maior controle sobre a organização e o compartilhamento de código.
 - Segurança e eficiência ao expor apenas pacotes e classes necessários para outros módulos.
