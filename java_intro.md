@@ -1,3 +1,30 @@
+# **Sumário Interativo**
+
+- [Introdução ao Java](#introdução-ao-java)
+  - [Java: Uma Linguagem Multiplataforma](#java-uma-linguagem-multiplataforma)
+- [Introdução à Programação com Java](#introdução-à-programação-com-java)
+  - [1. Algoritmo](#1-algoritmo)
+  - [2. Programa](#2-programa)
+  - [3. Regras de Linguagem](#3-regras-de-linguagem)
+    - [3.1 Regras Léxicas](#31-regras-léxicas)
+    - [3.2 Regras de Sintaxe](#32-regras-de-sintaxe)
+  - [4. IDE (Integrated Development Environment)](#4-ide-integrated-development-environment)
+  - [5. Execução de Código](#5-execução-de-código)
+    - [5.1 Compilação](#51-compilação)
+    - [5.2 Interpretação](#52-interpretação)
+    - [5.3 Máquina Virtual](#53-máquina-virtual)
+  - [6. Versões do Java](#6-versões-do-java)
+  - [7. O Que Baixar: JVM, JRE ou JDK?](#7-o-que-baixar-jvm-jre-ou-jdk)
+    - [7.1 JVM (Java Virtual Machine)](#71-jvm-java-virtual-machine)
+    - [7.2 JRE (Java Runtime Environment)](#72-jre-java-runtime-environment)
+    - [7.3 JDK (Java Development Kit)](#73-jdk-java-development-kit)
+- [Estrutura de uma Aplicação Java](#estrutura-de-uma-aplicação-java)
+  - [1. Packages: Agrupamento Lógico de Classes](#1-packages-agrupamento-lógico-de-classes)
+  - [2. Módulos (Introduzido no Java 9+): Agrupamento Lógico de Pacotes](#2-módulos-introduzido-no-java-9-agrupamento-lógico-de-pacotes)
+  - [3. Runtime: Agrupamento Físico de Módulos](#3-runtime-agrupamento-físico-de-módulos)
+
+
+
 # Introdução ao Java
 
 Na década de 1990, o desenvolvimento de software enfrentava desafios significativos, como:
