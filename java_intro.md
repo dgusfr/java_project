@@ -259,6 +259,8 @@ Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrup
 | `Módulo Financeiro` | Contém pacotes como `entities`, `services` e `repositories` voltados para a lógica financeira. |
 | `Módulo Gráficos`   | Inclui pacotes como `graphics`, `graphics3d` e `utilities`, relacionados ao processamento gráfico. |
 
+<br>
+
 ## 3. **Runtime: Agrupamento Físico de Módulos**
 
 ### Definição
