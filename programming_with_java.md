@@ -121,7 +121,6 @@ Com o **Java 9**, foi introduzido o conceito de **módulos**, que permitem agrup
 
 ## 3. **Runtime: Agrupamento Físico de Módulos**
 
-### Definição
 O **runtime** refere-se ao agrupamento físico dos módulos necessários para a execução de uma aplicação. Ele representa os módulos e pacotes que serão compilados e estarão disponíveis em tempo de execução.
 
 ### Características
