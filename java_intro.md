@@ -113,7 +113,6 @@ Definem como organizar as palavras e símbolos para formar sentenças válidas n
 
 ## 4. IDE (Integrated Development Environment)
 
-### Definição
 Uma **IDE** é um ambiente integrado de desenvolvimento que oferece ferramentas para facilitar a criação e manutenção de software.
 
 ### Funcionalidades Principais
