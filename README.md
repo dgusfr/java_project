@@ -12,16 +12,16 @@
 5. **Calcule e imprima os fatoriais de 1 a 10.**
    
 
-8. **Altere o código do exercício anterior para calcular os fatoriais de 1 a 20, utilizando `long` para evitar overflow.**
+6. **Altere o código do exercício anterior para calcular os fatoriais de 1 a 20, utilizando `long` para evitar overflow.**
    
 
-10. **Imprima os primeiros números da série de Fibonacci até que o valor ultrapasse 100.**
+7. **Imprima os primeiros números da série de Fibonacci até que o valor ultrapasse 100.**
     
 
-12. **Implemente a lógica de Collatz:** Para um número `x`, se for par, divida por 2, se for ímpar, calcule `3 * x + 1`, e imprima até `x` ser 1.
+8. **Implemente a lógica de Collatz:** Para um número `x`, se for par, divida por 2, se for ímpar, calcule `3 * x + 1`, e imprima até `x` ser 1.
     
 
-14. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
+9. **Imprima a tabela abaixo utilizando laços `for` aninhados:**
    ```
    1
    2 4
