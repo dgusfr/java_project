@@ -56,11 +56,11 @@
 
 20. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
 
-25. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
+21. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
 
-26. **Imprima os quadrados perfeitos entre 1 e 200.**
+22. **Imprima os quadrados perfeitos entre 1 e 200.**
 
-27. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
+23. **Escreva um programa que leia um número inteiro e exiba a soma de seus dígitos.**
 
 28. **Crie um programa que leia dois números inteiros e calcule a soma de todos os números pares entre eles.**
 
