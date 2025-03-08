@@ -66,5 +66,5 @@
 
 25. **Implemente um programa que leia um número inteiro e determine quantos números primos menores que ele existem.**
 
-30. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
+26. **Escreva um programa que leia um número inteiro e determine se ele é um número de Armstrong (ex.: 153 = 1³ + 5³ + 3³).**
 
