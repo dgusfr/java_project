@@ -50,7 +50,7 @@
 
 17. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
 
-22. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
+18. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
 
 23. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
 
