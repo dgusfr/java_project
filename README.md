@@ -9,7 +9,7 @@
 4. **Imprima todos os múltiplos de 3 entre 1 e 100.**
    
 
-6. **Calcule e imprima os fatoriais de 1 a 10.**
+5. **Calcule e imprima os fatoriais de 1 a 10.**
    
 
 8. **Altere o código do exercício anterior para calcular os fatoriais de 1 a 20, utilizando `long` para evitar overflow.**
