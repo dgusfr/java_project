@@ -46,9 +46,9 @@
 
 15. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
 
-26. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
+16. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
 
-21. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
+17. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
 
 22. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
 
