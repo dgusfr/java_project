@@ -31,22 +31,22 @@
    ```
 
 
-11. **Refaça o exercício da série de Fibonacci utilizando apenas duas variáveis.**
+10. **Refaça o exercício da série de Fibonacci utilizando apenas duas variáveis.**
 
 
-13. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
+11. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
     
 
-15. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
+12. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
     
 
-17. **Imprima os números primos entre 1 e 100.**
+13. **Imprima os números primos entre 1 e 100.**
 
-18. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
+14. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
 
-19. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
+15. **Escreva um programa que leia um número e determine se ele é perfeito (a soma dos seus divisores é igual a ele).**
 
-20. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
+26. **Calcule e exiba os 10 primeiros números triangulares (a soma dos números inteiros consecutivos até `n`).**
 
 21. **Implemente um programa que determine se um número fornecido pelo usuário é palíndromo (lido de trás para frente é igual ao original).**
 
