@@ -52,9 +52,9 @@
 
 18. **Escreva um programa que imprima a sequência de números onde o próximo é a soma dos dois anteriores (ex.: 1, 3, 4, 7, 11...), até 100.**
 
-23. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
+19. **Calcule o valor de `n! / (r! * (n - r)!)` para valores fornecidos pelo usuário (`n` e `r`).**
 
-24. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
+20. **Crie um programa que leia um número e determine quantos dígitos ele possui.**
 
 25. **Faça um programa que leia 10 números do usuário e exiba o maior e o menor valor digitado.**
 
