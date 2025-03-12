@@ -31,9 +31,6 @@
    ```
 
 
-10. **Refaça o exercício da série de Fibonacci utilizando apenas duas variáveis.**
-
-
 11. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
     
 
