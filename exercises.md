@@ -1,4 +1,4 @@
-### Lista de Exercícios 
+### Exercícios Básicos
 
 1. **Imprima os números de 150 a 300.**
 
@@ -36,3 +36,5 @@
 11. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
     
 13. **Imprima os números primos entre 1 e 100.**
+
+---
