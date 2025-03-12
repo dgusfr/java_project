@@ -1,4 +1,4 @@
-package basic;
+package application.basic;
 
 public class SomaQuadrados1_50{
   public static void main(String[] args) {

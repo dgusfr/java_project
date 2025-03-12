@@ -1,4 +1,4 @@
-package basic;
+package application.basic;
 
 public class MultiplosDe3 {
 
