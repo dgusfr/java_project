@@ -53,10 +53,8 @@
     - [Estrutura `while`](#1-estrutura-while)
     - [Estrutura `for`](#2-estrutura-for)
     - [Estrutura `do-while`](#3-estrutura-do-while)
-    - [Estrutura `do-while`](#3-estrutura-do-while)
     - [Estrutura `switch`](#4-estrutura-switch)
-    - [Estrutura `switch`](#4-estrutura-switch)
-    
+
 ---
 
 
