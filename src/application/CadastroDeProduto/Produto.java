@@ -1,31 +1,37 @@
 package application.CadastroDeProduto;
 
-import java.util.Scanner;
-
 public class Produto {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    private int codigo;
+    private String nome;
+    private double preco;
+    private Categoria categoria;
 
-    System.out.print("Qual o código do produto? ");
-    int codigo = sc.nextInt();
-    sc.nextLine();
+    public Produto(int codigo, String nome, double preco, Categoria categoria) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.preco = preco;
+        this.categoria = categoria;
+    }
 
-    System.out.print("Qual o nome do produto? ");
-    String nome = sc.nextLine();
+    public int getCodigo() {
+        return codigo;
+    }
 
-    System.out.print("Qual o preço do produto? ");
-    double preco = sc.nextDouble();
-    sc.nextLine();
+    public String getNome() {
+        return nome;
+    }
 
-    System.out.print("Qual a categoria do produto (ELETRONICO, MOVEIS, ROUPAS)? ");
-    String categoriaStr = sc.nextLine().toUpperCase();
+    public double getPreco() {
+        return preco;
+    }
 
-    Categoria categoria = Categoria.valueOf(categoriaStr);
+    public Categoria getCategoria() {
+        return categoria;
+    }
 
-    Produto produto = new Produto(codigo, nome, preco, categoria);
-
-    System.out.println(produto);
-
-    sc.close();
-  }
+    @Override
+    public String toString() {
+        return String.format("O produto %s, com código %d, custa R$ %.2f e faz parte da categoria %s.",
+                nome, codigo, preco, categoria);
+    }
 }
