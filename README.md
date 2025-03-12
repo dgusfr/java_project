@@ -31,12 +31,10 @@
    ```
 
 
-11. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
+10. **Desenvolva um programa que imprima a soma dos quadrados dos números de 1 a 50.**
     
-
-12. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
+11. **Crie um programa que leia dois números e exiba todos os números entre eles em ordem crescente.**
     
-
 13. **Imprima os números primos entre 1 e 100.**
 
 14. **Calcule o maior divisor comum (MDC) de dois números fornecidos pelo usuário usando o algoritmo de Euclides.**
