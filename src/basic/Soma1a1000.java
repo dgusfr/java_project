@@ -1,4 +1,4 @@
-package application;
+package basic;
 
 public class Soma1a1000 {
 

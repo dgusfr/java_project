@@ -1,4 +1,4 @@
-package application;
+package basic;
 
 public class TabelaMultiplicacaoAninhada {
     public static void main(String[] args) { 
