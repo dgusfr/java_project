@@ -11,7 +11,7 @@ public class Main {
 
         System.out.print("Idade: ");
         int idade = sc.nextInt();
-        nextLine();
+        sc.nextLine();
 
         System.out.print("Altura: ");
         double altura = sc.nextDouble();
@@ -23,6 +23,8 @@ public class Main {
 
         Pessoa pessoa = new Pessoa(nome, idade, altura, peso);
         pessoa.exibirDados();
+
+        sc.close();
 
     }
 }
