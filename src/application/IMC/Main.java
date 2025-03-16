@@ -13,7 +13,7 @@ public class Main {
         int idade = sc.nextInt();
         sc.nextLine();
 
-        System.out.print("Altura: ");
+        System.out.print("Altura (Metros): ");
         double altura = sc.nextDouble();
         sc.nextLine();
 
