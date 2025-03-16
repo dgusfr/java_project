@@ -1,3 +1,5 @@
+package application.verificadorPermissao; 
+
 import java.util.Scanner;
 
 public class VerificadorPermissao {
