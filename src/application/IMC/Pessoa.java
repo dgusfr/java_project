@@ -46,12 +46,13 @@ public class Pessoa {
     }
 
 
-    public double calculaIMC(){
-        return peso / int ((altura * altura));
+    public double calcularIMC(){
+        return peso / (altura * altura);
     }
 
     public void exibirDados(){
         System.out.printf("Nome: %s, IMC: %.2f%n", nome, calcularIMC());
     }
+
 
 }
