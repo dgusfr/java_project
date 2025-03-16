@@ -18,10 +18,9 @@ public class Main {
         double side_C = sc.nextDouble();
 
         Triangulo triangulo = new Triangulo(side_A, side_B, side_C);
-
-
+        triangulo.avaliaTriangulo();
 
         sc.close();
 
-}
+    }
 }

@@ -35,6 +35,16 @@ public class Triangulo {
     this.side_C = side_C;
   }
 
+  public String avaliaTriangulo(){
+    if(side_A == side_B && side_B == side_C){
+      return "Triângulo Equilátero";
+    }else if(side_A == side_B || side_A == side_C || side_B == side_C){
+      return "Triângulo Isósceles";
+    }else{
+      return "Triângulo Escaleno";
+    }
+  }
+
   
 
 
